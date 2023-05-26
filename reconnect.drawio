@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T08:41:11.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MTelavtDtoidpzpiD6pe" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T08:41:59.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="H80nETeIpuvdzthOzLu3" version="21.3.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2636" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -52,9 +52,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Call(MSG_C2S_CONNECT)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Call(MSG_C2S_CONNECT)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="180" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="250" y="180" />
               <mxPoint x="240" y="260" />
