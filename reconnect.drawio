@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T08:52:50.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Ut4bu3m5WTSQ3iI1ciNt" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T08:53:52.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jYyUnVA4X3lM0_j94hcd" version="21.3.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2636" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -385,8 +385,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPJhOk3paSpWV-xpmJgs-61" value="Check for&amp;nbsp;UserMigrate&lt;br&gt;注：超过 30s 重连失败时，将触发 RTN迁移" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="260" height="40" as="geometry" />
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-61" value="Check for&amp;nbsp;UserMigrate；&lt;br&gt;注：重连失败，超时时，将触发 RTN迁移；&lt;br&gt;超时：30s；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
