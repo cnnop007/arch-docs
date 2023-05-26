@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T08:53:52.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jYyUnVA4X3lM0_j94hcd" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T09:13:08.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Eq1nJecKVzBzKJLI377Y" version="21.3.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2636" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -62,6 +62,9 @@
               <mxPoint x="80" y="680" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="45" y="430" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Call(MSG_C2S_CONNECT)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -142,11 +145,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPJhOk3paSpWV-xpmJgs-18" value="ReConnectSignal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" target="TPJhOk3paSpWV-xpmJgs-5">
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-18" value="ReConnectSignal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-62" target="TPJhOk3paSpWV-xpmJgs-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="520" as="sourcePoint" />
             <mxPoint x="450" y="520" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="500" y="510" />
               <mxPoint x="730" y="520" />
               <mxPoint x="690" y="510" />
               <mxPoint x="710" y="530" />
@@ -201,11 +205,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPJhOk3paSpWV-xpmJgs-25" value="MSG_C2S_RECONNECT" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-22">
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-25" value="MSG_C2S_RECONNECT" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-22" target="TPJhOk3paSpWV-xpmJgs-62">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="500" y="440" as="sourcePoint" />
             <mxPoint x="340" y="480" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="500" y="480" />
               <mxPoint x="540" y="480" />
               <mxPoint x="550" y="490" />
               <mxPoint x="540" y="480" />
