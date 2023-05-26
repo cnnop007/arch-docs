@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T10:12:56.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YyaVOsDP34PsRn92uJs7" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T10:26:03.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jdomeLUGf36iTjIscrEY" version="21.3.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2889" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2397" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="45" y="90" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-2" value="new&amp;nbsp;CRoomStrategy" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1.014;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TPJhOk3paSpWV-xpmJgs-1" parent="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry relative="1" as="geometry">
@@ -43,16 +43,16 @@
           <mxGeometry x="280" y="40" width="100" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="151" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="141" width="10" height="29" as="geometry" />
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-4" value="new&amp;nbsp;CSignalChannel" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="TPJhOk3paSpWV-xpmJgs-3" parent="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="139" as="sourcePoint" />
+            <mxPoint x="50" y="129" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="139" />
-              <mxPoint x="80" y="171" />
+              <mxPoint x="80" y="129" />
+              <mxPoint x="80" y="161" />
             </Array>
-            <mxPoint x="90" y="166" as="targetPoint" />
+            <mxPoint x="90" y="156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
@@ -71,13 +71,13 @@
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Call(MSG_C2S_CONNECT)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0024" relative="1" as="geometry">
-            <mxPoint x="89.5" y="170" as="sourcePoint" />
+            <mxPoint x="95" y="160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="250" y="170" />
-              <mxPoint x="240" y="250" />
-              <mxPoint x="170" y="220" />
+              <mxPoint x="255.5" y="160" />
+              <mxPoint x="245.5" y="240" />
+              <mxPoint x="175.5" y="210" />
             </Array>
-            <mxPoint x="329.5" y="170" as="targetPoint" />
+            <mxPoint x="335" y="160" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -93,11 +93,15 @@
         <mxCell id="TPJhOk3paSpWV-xpmJgs-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TPJhOk3paSpWV-xpmJgs-5">
           <mxGeometry x="45" y="520" width="10" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="TPJhOk3paSpWV-xpmJgs-9" value="Connect()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-3" target="TPJhOk3paSpWV-xpmJgs-5">
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TPJhOk3paSpWV-xpmJgs-5">
+          <mxGeometry x="45" y="80" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-9" value="Connect()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-3" target="TPJhOk3paSpWV-xpmJgs-81">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="380" as="sourcePoint" />
             <mxPoint x="594.9999999999998" y="380.0000000000001" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="410" y="210" />
               <mxPoint x="640" y="220" />
               <mxPoint x="510" y="310" />
               <mxPoint x="430" y="400" />
@@ -105,11 +109,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPJhOk3paSpWV-xpmJgs-10" value="CreateNetWrapper" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-5">
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-10" value="CreateNetWrapper" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-81">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="779.9999999999998" y="419.5168965517242" as="sourcePoint" />
-            <mxPoint x="960" y="240" as="targetPoint" />
+            <mxPoint x="960" y="260" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="880" y="260" />
+              <mxPoint x="930" y="250" />
               <mxPoint x="850" y="240" />
               <mxPoint x="920" y="340" />
               <mxPoint x="820" y="430" />
@@ -300,9 +306,10 @@
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-36" value="ConnectFailed" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" target="TPJhOk3paSpWV-xpmJgs-5">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="960" y="280" as="sourcePoint" />
+            <mxPoint x="960" y="290" as="sourcePoint" />
             <mxPoint x="830" y="402" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="850" y="290" />
               <mxPoint x="870" y="280" />
               <mxPoint x="920" y="370" />
               <mxPoint x="880" y="380" />
@@ -362,7 +369,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-45" value="ClientCore API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-120" y="280" width="100" height="800" as="geometry" />
+          <mxGeometry x="-120" y="120" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-46" value="MSG_UI_CONF_C2SRECONNECT_TIMEOUT_RESPONSE" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-22" target="TPJhOk3paSpWV-xpmJgs-45">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -500,6 +507,33 @@
         </mxCell>
         <mxCell id="TPJhOk3paSpWV-xpmJgs-80" value="触发 Reconn 的场景：&lt;br&gt;1. 收到断网回调&lt;br&gt;2. 信令心跳超时&lt;br&gt;&amp;nbsp; &amp;nbsp; - SignalChannel::doHeartbeat&lt;br&gt;&amp;nbsp; &amp;nbsp; - 连续3次，触发&amp;nbsp;MSG_C2S_CLOSE_AND_RECONNECT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="358" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-83" value="AsyncCallback(MSG_UI_CONF_C2SCONNECT_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-81" target="TPJhOk3paSpWV-xpmJgs-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="670" y="240" as="sourcePoint" />
+            <mxPoint x="740" y="240.33" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-84" value="MSG_UI_CONF_C2SCONNECT_RESPONSE" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-22" target="TPJhOk3paSpWV-xpmJgs-45">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-85" value="OnConnect()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="TPJhOk3paSpWV-xpmJgs-45">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-190" y="240" as="sourcePoint" />
+            <mxPoint x="-200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPJhOk3paSpWV-xpmJgs-86" value="OnConnect&lt;br&gt;仅在首次连接某 SLB/GW 时，触发该回调" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="250" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
