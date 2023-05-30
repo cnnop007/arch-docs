@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T09:05:23.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ov-e3gberh1WQrrD36Xv" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T09:08:07.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XNjbyu0o5NVsHxqe1Gqk" version="21.3.5" type="github">
   <diagram name="第 1 页" id="bJqV1wxFN7mJxmhRPC-d">
     <mxGraphModel dx="1434" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YrCEO4tx444crZpDwMLG-8" value="Video/&lt;br&gt;AudioModule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1160" y="40" width="100" height="680" as="geometry" />
+          <mxGeometry x="1160" y="40" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="YrCEO4tx444crZpDwMLG-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="YrCEO4tx444crZpDwMLG-8" vertex="1">
           <mxGeometry x="45" y="150" width="10" height="50" as="geometry" />
@@ -126,7 +126,7 @@
         <mxCell id="JUJOMInYhaKjoSLgkItF-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="YrCEO4tx444crZpDwMLG-11" vertex="1">
           <mxGeometry x="45" y="340" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YrCEO4tx444crZpDwMLG-12" value="AsyncCall(MSG_AUDIO_RECREATENETWRAPPER)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="YrCEO4tx444crZpDwMLG-10" target="YrCEO4tx444crZpDwMLG-13" edge="1">
+        <mxCell id="YrCEO4tx444crZpDwMLG-12" value="AsyncCall(&lt;font color=&quot;#cc0000&quot;&gt;MSG_XXX_RECREATENETWRAPPER&lt;/font&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="YrCEO4tx444crZpDwMLG-10" target="YrCEO4tx444crZpDwMLG-13" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1060" y="230" as="sourcePoint" />
             <mxPoint x="940" y="230" as="targetPoint" />
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YrCEO4tx444crZpDwMLG-15" value="MSG_AUDIO_RECREATENETWRAPPER" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="YrCEO4tx444crZpDwMLG-13" target="YrCEO4tx444crZpDwMLG-16" edge="1">
+        <mxCell id="YrCEO4tx444crZpDwMLG-15" value="&lt;font color=&quot;#cc0000&quot;&gt;MSG_XXX_RECREATENETWRAPPER&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="YrCEO4tx444crZpDwMLG-13" target="YrCEO4tx444crZpDwMLG-16" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="900" y="280" as="sourcePoint" />
             <mxPoint x="980" y="280" as="targetPoint" />
@@ -264,6 +264,9 @@
         </mxCell>
         <mxCell id="JUJOMInYhaKjoSLgkItF-27" value="stage1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NURry8_K3tuDxJ6OmEg2-1" value="&lt;font color=&quot;#cc0000&quot;&gt;MSG_XXX_RECREATENETWRAPPER&lt;/font&gt; 说明：&lt;br&gt;1. audio：MSG_AUDIO_RECREATENETWRAPPER&lt;br&gt;2. video：MSG_VIDEO_RECREATENETWRAPPER" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="680" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
