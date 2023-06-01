@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T11:20:20.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XqjMjHiFHfanHI5gAuGa" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T12:03:06.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xb_pLPRw-o6yWixqtmuO" version="21.3.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2196" dy="1371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1830" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,7 +125,7 @@
           <mxGeometry x="45" y="1150" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-8" value="ClientCore API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="100" height="800" as="geometry" />
+          <mxGeometry x="120" y="120" width="100" height="960" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-8">
           <mxGeometry x="45" y="79" width="10" height="61" as="geometry" />
@@ -185,7 +185,7 @@
         <mxCell id="RUMtgb1oClHB0mOU0g6q-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-18">
           <mxGeometry x="45" y="870" width="10" height="189" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-53" value="UpdateSpeakerStatus()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-52" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-52">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-53" value="UpdateSpeakerStatus()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontColor=#CC0000;" edge="1" target="RUMtgb1oClHB0mOU0g6q-52" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55.00000000000023" y="869.004492753623" as="sourcePoint" />
             <Array as="points">
@@ -773,6 +773,27 @@
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-121" value="Only for log\Status" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-122" value="UpdateSpeakerStatus：&lt;br&gt;1. 更新&amp;nbsp;room_info_map_&lt;br&gt;2.&amp;nbsp;applyRemoteRoute&lt;br&gt;3.&amp;nbsp;updateRemoteRoute&lt;br&gt;4. AudioEngine::startPlay&lt;br&gt;5. AudioEngine::muteRemote" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="780" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-123" value="MSG_UI_AUDIO_STATUS_RESPONSE" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-5" target="RUMtgb1oClHB0mOU0g6q-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="1070" as="sourcePoint" />
+            <mxPoint x="390" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-124" value="OnUpdateAudioStatus" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1060" as="sourcePoint" />
+            <mxPoint x="40" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-125" value="特别说明：&lt;br&gt;在 corertc RtcEngineImp 中，会进一步驱动到 AudioLib::MuteRecvStream" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
