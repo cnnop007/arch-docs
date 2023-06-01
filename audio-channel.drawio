@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T08:03:36.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RKumL6xshqI_cKEIBrSj" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T08:43:38.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="53BCrXV4-nncsiW6qceN" version="21.3.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1434" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2534" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,7 +18,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="45" y="79" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="69" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-2" value="dealEnter" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-1" parent="aM9ryv3xv72pqoxQDRHE-1" source="RUMtgb1oClHB0mOU0g6q-1">
           <mxGeometry relative="1" as="geometry">
@@ -30,11 +30,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="45" y="640" width="10" height="60" as="geometry" />
+          <mxGeometry x="45" y="710" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-37" value="dealUserList()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-36" parent="aM9ryv3xv72pqoxQDRHE-1" source="RUMtgb1oClHB0mOU0g6q-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="629.9999999999998" as="sourcePoint" />
+            <mxPoint x="55" y="699.9999999999998" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -42,54 +42,55 @@
           <mxGeometry x="640" width="100" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="500" as="geometry" />
+          <mxGeometry x="45" y="110" width="10" height="580" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="50" y="159" width="10" height="40" as="geometry" />
+          <mxGeometry x="50" y="130" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-4" value="store: userMsg_map_,&amp;nbsp;audioAddrMsg_" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-3" parent="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-4" value="store: userMsg_map_,&amp;nbsp;audioAddrMsg_" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-3" parent="aM9ryv3xv72pqoxQDRHE-5" source="aM9ryv3xv72pqoxQDRHE-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="139.02857142857135" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="139" />
-              <mxPoint x="85" y="179" />
+              <mxPoint x="85" y="120" />
+              <mxPoint x="85" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="50" y="330" width="10" height="280" as="geometry" />
+          <mxGeometry x="50" y="260" width="10" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-15" value="OpenAudio()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;strokeColor=#CC0000;fontColor=#CC0000;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="-0.3548" relative="1" as="geometry">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-15" value="OpenAudio()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;strokeColor=#CC0000;fontColor=#CC0000;" edge="1" target="RUMtgb1oClHB0mOU0g6q-14" parent="aM9ryv3xv72pqoxQDRHE-5" source="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry x="0.0435" y="5" relative="1" as="geometry">
             <mxPoint x="55" y="239.02857142857135" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="239" />
-              <mxPoint x="85" y="339" />
+              <mxPoint x="85" y="230" />
+              <mxPoint x="85" y="270" />
             </Array>
             <mxPoint x="60" y="339.02857142857135" as="targetPoint" />
-            <mxPoint y="-1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="680" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="720" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="709" width="10" height="470" as="geometry" />
+          <mxGeometry x="45" y="720" width="10" height="459" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-41" value="onRemoteUserEnter()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" source="RUMtgb1oClHB0mOU0g6q-39">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-41" value="onRemoteUserEnter()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-5" source="RUMtgb1oClHB0mOU0g6q-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="750" as="sourcePoint" />
+            <mxPoint x="50" y="790" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="700" />
-              <mxPoint x="80" y="740" />
+              <mxPoint x="80" y="760" />
+              <mxPoint x="80" y="780" />
             </Array>
-            <mxPoint x="55" y="740" as="targetPoint" />
+            <mxPoint x="55" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="dealEnter()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="RUMtgb1oClHB0mOU0g6q-1" edge="1">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="dealEnter()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="RUMtgb1oClHB0mOU0g6q-1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="69" as="sourcePoint" />
             <Array as="points">
+              <mxPoint x="600" y="120" />
               <mxPoint x="500" y="129" />
               <mxPoint x="530" y="139" />
               <mxPoint x="465" y="59" />
@@ -101,19 +102,20 @@
           <mxGeometry x="960" width="100" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-5">
-          <mxGeometry x="45" y="199" width="10" height="100" as="geometry" />
+          <mxGeometry x="45" y="160" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-5">
-          <mxGeometry x="45" y="750" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="790" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-5">
           <mxGeometry x="45" y="1069" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-6" value="AsyncCallback(MSG_UI_CONF_ENTERCONF_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="RUMtgb1oClHB0mOU0g6q-9">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-6" value="AsyncCallback(MSG_UI_CONF_ENTERCONF_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="RUMtgb1oClHB0mOU0g6q-9">
           <mxGeometry x="0.0016" width="80" relative="1" as="geometry">
             <mxPoint x="695" y="219" as="sourcePoint" />
             <mxPoint x="830" y="149" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="720" y="180" />
               <mxPoint x="760" y="219" />
             </Array>
             <mxPoint as="offset" />
@@ -126,7 +128,7 @@
           <mxGeometry x="45" y="1150" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-8" value="ClientCore API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="120" y="180" width="100" height="740" as="geometry" />
+          <mxGeometry x="120" y="120" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-8">
           <mxGeometry x="45" y="79" width="10" height="100" as="geometry" />
@@ -135,29 +137,36 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="650" y="229" as="sourcePoint" />
             <mxPoint x="730" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="210" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-12" value="OnEnterRoom" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-11">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-20" y="279.33" as="sourcePoint" />
-            <mxPoint x="40" y="279" as="targetPoint" />
+            <mxPoint x="40" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="210" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-13" value="onEnterRoom()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-11">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-13" value="onEnterRoom()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-11" target="RUMtgb1oClHB0mOU0g6q-7">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="650" y="299" as="sourcePoint" />
             <mxPoint x="1489.5" y="309" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="330" y="240" />
               <mxPoint x="370" y="309" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-17" value="Call(MSG_AUDIO_CREATECHANNEL)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="700" y="359" as="sourcePoint" />
-            <mxPoint x="1009.5" y="359" as="targetPoint" />
+            <mxPoint x="700" y="289.66" as="sourcePoint" />
+            <mxPoint x="1009.5" y="289.66" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="740" y="359" />
+              <mxPoint x="740" y="289.66" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -165,29 +174,26 @@
           <mxGeometry x="1200" width="100" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-18">
-          <mxGeometry x="45" y="350" width="10" height="99" as="geometry" />
+          <mxGeometry x="45" y="280" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-23" value="CreateAudioChannel()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-22" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="379" as="sourcePoint" />
+            <mxPoint x="55" y="329" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="359" />
-              <mxPoint x="85" y="390" />
+              <mxPoint x="85" y="290" />
+              <mxPoint x="85" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-18">
-          <mxGeometry x="45" y="820" width="10" height="249" as="geometry" />
-        </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-18">
-          <mxGeometry x="50" y="859" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="870" width="10" height="189" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-53" value="UpdateSpeakerStatus()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-52" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-51">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-53" value="UpdateSpeakerStatus()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-52" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55.00000000000023" y="869.004492753623" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="839" />
-              <mxPoint x="85" y="879" />
+              <mxPoint x="85" y="880" />
+              <mxPoint x="85" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -207,146 +213,152 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-18">
-          <mxGeometry x="45" y="460" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="380" width="10" height="300" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-87" value="LocalSpeak_internal()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="RUMtgb1oClHB0mOU0g6q-86" parent="RUMtgb1oClHB0mOU0g6q-18" source="RUMtgb1oClHB0mOU0g6q-86">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="469" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="470" />
-              <mxPoint x="85" y="500" />
+              <mxPoint x="85" y="390" />
+              <mxPoint x="85" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-21" value="MSG_AUDIO_CREATECHANNEL" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="RUMtgb1oClHB0mOU0g6q-22">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1009.9285714285713" y="359" as="sourcePoint" />
-            <mxPoint x="1120" y="359" as="targetPoint" />
+            <mxPoint x="1009.9285714285713" y="309" as="sourcePoint" />
+            <mxPoint x="1120" y="309" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1220" y="359" />
-              <mxPoint x="1060" y="369" />
+              <mxPoint x="1090" y="290" />
+              <mxPoint x="1220" y="309" />
+              <mxPoint x="1060" y="319" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-24" value="AsyncCallback(MSG_UI_CONF_MEDIACHANNEL_STATE_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-22" target="RUMtgb1oClHB0mOU0g6q-5">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1290" y="449.14" as="sourcePoint" />
-            <mxPoint x="1009.9285714285713" y="429" as="targetPoint" />
+          <mxGeometry x="-0.0035" width="80" relative="1" as="geometry">
+            <mxPoint x="1290" y="399.14" as="sourcePoint" />
+            <mxPoint x="1010" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1090" y="410" />
-              <mxPoint x="1120" y="429" />
-              <mxPoint x="1180" y="419" />
-              <mxPoint x="1060" y="419" />
-              <mxPoint x="1120" y="439" />
+              <mxPoint x="1170" y="340" />
+              <mxPoint x="1090" y="360" />
+              <mxPoint x="1120" y="379" />
+              <mxPoint x="1180" y="369" />
+              <mxPoint x="1060" y="369" />
+              <mxPoint x="1120" y="389" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-28" value="MSG_UI_CONF_MEDIACHANNEL_STATE_RESPONSE" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1009.5" y="410" as="sourcePoint" />
-            <mxPoint x="169.92857142857144" y="410" as="targetPoint" />
+            <mxPoint x="1009.5" y="340" as="sourcePoint" />
+            <mxPoint x="169.92857142857144" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="410" />
-              <mxPoint x="870" y="400" />
-              <mxPoint x="760" y="420" />
-              <mxPoint x="780" y="400" />
-              <mxPoint x="570" y="450" />
-              <mxPoint x="960" y="420" />
+              <mxPoint x="920" y="340" />
+              <mxPoint x="870" y="330" />
+              <mxPoint x="760" y="350" />
+              <mxPoint x="780" y="330" />
+              <mxPoint x="570" y="380" />
+              <mxPoint x="960" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-29" value="OnGetMediaChannelState" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-8">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-29" value="OnGetMediaChannelState" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="169.5" y="410" as="sourcePoint" />
-            <mxPoint x="40" y="410" as="targetPoint" />
+            <mxPoint x="169.5" y="340" as="sourcePoint" />
+            <mxPoint x="40" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="110" y="410" />
+              <mxPoint x="110" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-30" value="CreateNetWrapper()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeColor=#CC6600;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-22">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1480" y="439.1" as="sourcePoint" />
-            <mxPoint x="1400" y="439" as="targetPoint" />
+            <mxPoint x="1480" y="389.1" as="sourcePoint" />
+            <mxPoint x="1400" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1380" y="439" />
-              <mxPoint x="1310" y="459" />
+              <mxPoint x="1390" y="360" />
+              <mxPoint x="1280" y="380" />
+              <mxPoint x="1380" y="389" />
+              <mxPoint x="1310" y="409" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-31" value="RoomStrategy::OpenAudio() 目前逻辑：&lt;br&gt;1. 加入房间后，无条件 自动驱动 CreateAudioChannel&amp;nbsp;&lt;br&gt;2. 每个房间创建一条 Audio 链路；上行/下行，均复用同一条链路" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="219" width="370" height="60" as="geometry" />
+          <mxGeometry x="360" y="260" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-32" value="AudioModule::room_info_map_&lt;br&gt;维护 房间|音频链路 相关信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="320" width="190" height="40" as="geometry" />
+          <mxGeometry x="1280" y="250" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#CC6600;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="630" as="sourcePoint" />
-            <mxPoint x="1840" y="630" as="targetPoint" />
+            <mxPoint x="10" y="700" as="sourcePoint" />
+            <mxPoint x="1840" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-34" value="OnRecvMsg -ECONFOPER_LIST" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;strokeColor=#CC6600;" edge="1" parent="1" target="RUMtgb1oClHB0mOU0g6q-36">
           <mxGeometry x="-0.0042" width="60" relative="1" as="geometry">
-            <mxPoint x="280" y="660" as="sourcePoint" />
-            <mxPoint x="340" y="640" as="targetPoint" />
+            <mxPoint x="280" y="730" as="sourcePoint" />
+            <mxPoint x="340" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="660" />
-              <mxPoint x="320" y="640" />
-              <mxPoint x="300" y="620" />
+              <mxPoint x="340" y="730" />
+              <mxPoint x="320" y="710" />
+              <mxPoint x="300" y="690" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-38" value="dealUserList()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-36" target="RUMtgb1oClHB0mOU0g6q-39">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-38" value="dealUserList()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-36">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="440" y="720.14" as="sourcePoint" />
-            <mxPoint x="520" y="720.14" as="targetPoint" />
+            <mxPoint x="440" y="790.14" as="sourcePoint" />
+            <mxPoint x="685" y="759.9803921568628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-42" value="ESPEAKERSTATUS_SPEAKER == eSpeakerStatus" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="720" y="690" width="300" height="30" as="geometry" />
+          <mxGeometry x="720" y="730" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-43" value="AsyncCallback(MSG_UI_CONF_UPDATE_AUDIO_DEVICE_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0014" width="80" relative="1" as="geometry">
-            <mxPoint x="695" y="770" as="sourcePoint" />
-            <mxPoint x="1005" y="770" as="targetPoint" />
+            <mxPoint x="695" y="810" as="sourcePoint" />
+            <mxPoint x="1005" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="860" y="770" />
-              <mxPoint x="840" y="810" />
+              <mxPoint x="860" y="810" />
+              <mxPoint x="840" y="850" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-46" value="MSG_UI_CONF_UPDATE_AUDIO_DEVICE_RESPONSE" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-44">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="510" y="850.33" as="sourcePoint" />
-            <mxPoint x="168.96153846153857" y="800" as="targetPoint" />
+            <mxPoint x="510" y="890.33" as="sourcePoint" />
+            <mxPoint x="168.96153846153857" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="800" />
-              <mxPoint x="380" y="810" />
-              <mxPoint x="270" y="860" />
-              <mxPoint x="350" y="850" />
-              <mxPoint x="200" y="850" />
+              <mxPoint x="780" y="840" />
+              <mxPoint x="380" y="850" />
+              <mxPoint x="270" y="900" />
+              <mxPoint x="350" y="890" />
+              <mxPoint x="200" y="890" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-47" value="OnUpdateUserAudioDevice" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="169.5" y="800" as="sourcePoint" />
-            <mxPoint x="40" y="800" as="targetPoint" />
+            <mxPoint x="169.5" y="840" as="sourcePoint" />
+            <mxPoint x="40" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="800" />
-              <mxPoint x="120" y="810" />
-              <mxPoint x="140" y="860" />
+              <mxPoint x="140" y="840" />
+              <mxPoint x="120" y="850" />
+              <mxPoint x="140" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-48" value="Call(MSG_AUDIO_UPDATE_SPEAKER_STATUS)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-40">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-48" value="Call(MSG_AUDIO_UPDATE_SPEAKER_STATUS)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-40" target="RUMtgb1oClHB0mOU0g6q-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="710" y="889" as="sourcePoint" />
             <mxPoint x="1009.5000000000005" y="829" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="760" y="880" />
               <mxPoint x="770" y="840" />
               <mxPoint x="780" y="829" />
               <mxPoint x="800" y="839" />
@@ -354,11 +366,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-50" value="MSG_AUDIO_UPDATE_SPEAKER_STATUS" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="RUMtgb1oClHB0mOU0g6q-51">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-50" value="MSG_AUDIO_UPDATE_SPEAKER_STATUS" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-5" target="RUMtgb1oClHB0mOU0g6q-52">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1008.9615384615381" y="829" as="sourcePoint" />
             <mxPoint x="1120" y="909" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="1110" y="880" />
               <mxPoint x="1060" y="840" />
               <mxPoint x="1120" y="829" />
               <mxPoint x="1100" y="839" />
@@ -505,24 +518,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-79" value="" style="group;strokeColor=#CC6600;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1120" y="889" width="680" height="190" as="geometry" />
+          <mxGeometry x="1120" y="910" width="680" height="169" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-77" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-79">
-          <mxGeometry width="680" height="190" as="geometry" />
+          <mxGeometry width="680" height="169" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-78" value="speak=true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-79">
-          <mxGeometry y="30" width="80" height="30" as="geometry" />
+          <mxGeometry y="26.684210526315788" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-80" value="case1：音频通道建立" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
           <mxGeometry x="10" y="39" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-81" value="case2：下行流拉流" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" vertex="1" parent="1">
-          <mxGeometry x="10" y="640" width="130" height="30" as="geometry" />
+          <mxGeometry x="10" y="710" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-82" value="Call(MSG_AUDIO_LOCAL_SPEAKER)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="700" y="470.1700000000001" as="sourcePoint" />
-            <mxPoint x="1009.5" y="470.1700000000001" as="targetPoint" />
+            <mxPoint x="700" y="390.00000000000006" as="sourcePoint" />
+            <mxPoint x="1009.5" y="390.00000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-83" value="AsyncCallback(MSG_UI_AUDIO_PUBLISH_STATE_CHANGED_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-14" target="RUMtgb1oClHB0mOU0g6q-5">
@@ -530,17 +543,20 @@
             <mxPoint x="780" y="550" as="sourcePoint" />
             <mxPoint x="880" y="549.88" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="730" y="670" />
               <mxPoint x="800" y="600" />
               <mxPoint x="820" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RUMtgb1oClHB0mOU0g6q-84" value="MSG_AUDIO_LOCAL_SPEAKER" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="RUMtgb1oClHB0mOU0g6q-86">
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-84" value="MSG_AUDIO_LOCAL_SPEAKER" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-5" target="RUMtgb1oClHB0mOU0g6q-86">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1009.9285714285713" y="479" as="sourcePoint" />
-            <mxPoint x="1245" y="479" as="targetPoint" />
+            <mxPoint x="1009.9285714285713" y="399" as="sourcePoint" />
+            <mxPoint x="1245" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1090" y="470" />
+              <mxPoint x="1070" y="390" />
+              <mxPoint x="1090" y="410" />
+              <mxPoint x="1090" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -549,6 +565,8 @@
             <mxPoint x="1150" y="521" as="sourcePoint" />
             <mxPoint x="1180" y="520.33" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="1090" y="520" />
+              <mxPoint x="1100" y="540" />
               <mxPoint x="1140" y="521" />
             </Array>
           </mxGeometry>
@@ -558,6 +576,7 @@
             <mxPoint x="320" y="520" as="sourcePoint" />
             <mxPoint x="310" y="520.35" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="900" y="520" />
               <mxPoint x="520" y="520" />
               <mxPoint x="220" y="520" />
             </Array>
@@ -567,10 +586,98 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="10" y="520" as="sourcePoint" />
             <mxPoint x="40" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="520" />
+              <mxPoint x="130" y="540" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RUMtgb1oClHB0mOU0g6q-91" value="Only for log\Status" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="528" width="120" height="30" as="geometry" />
+          <mxGeometry x="40" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-92" value="startSend()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-86" target="RUMtgb1oClHB0mOU0g6q-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1290" y="542.5" as="sourcePoint" />
+            <mxPoint x="1370" y="542.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="530" />
+              <mxPoint x="1300" y="540" />
+              <mxPoint x="1320" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-93" value="muteLocal(false)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-86" target="RUMtgb1oClHB0mOU0g6q-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1310" y="560" as="sourcePoint" />
+            <mxPoint x="1370" y="558.3299999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="560" />
+              <mxPoint x="1320" y="580" />
+              <mxPoint x="1310" y="600" />
+              <mxPoint x="1290" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-95" value="AsyncCallback(MSG_UI_AUDIO_STOPSEND_RESPONSE)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-86" target="RUMtgb1oClHB0mOU0g6q-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="890" y="610" as="sourcePoint" />
+            <mxPoint x="970" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-96" value="stopSend()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-86" target="RUMtgb1oClHB0mOU0g6q-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1300" y="660" as="sourcePoint" />
+            <mxPoint x="1360" y="660.42" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-102" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1120" y="440" width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-94" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeColor=#CC6600;" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-102">
+          <mxGeometry width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-98" value="is speak = true" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RUMtgb1oClHB0mOU0g6q-102">
+          <mxGeometry y="28.846153846153847" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-99" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.001;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.654;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RUMtgb1oClHB0mOU0g6q-102" source="RUMtgb1oClHB0mOU0g6q-94" target="RUMtgb1oClHB0mOU0g6q-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="115.38461538461539" as="sourcePoint" />
+            <mxPoint x="260" y="67.3076923076923" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-103" value="startSend()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-7" target="RUMtgb1oClHB0mOU0g6q-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1580" y="380" as="sourcePoint" />
+            <mxPoint x="1690" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1560" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-105" value="muteLocal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-7" target="RUMtgb1oClHB0mOU0g6q-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1500" y="540" as="sourcePoint" />
+            <mxPoint x="1580" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1570" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUMtgb1oClHB0mOU0g6q-107" value="stopSend()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="RUMtgb1oClHB0mOU0g6q-7" target="RUMtgb1oClHB0mOU0g6q-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1500" y="660" as="sourcePoint" />
+            <mxPoint x="1580" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="660" />
+              <mxPoint x="1490" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
