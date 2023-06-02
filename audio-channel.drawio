@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T04:11:14.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NhEhJVHBHTbCNbWNwUmZ" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T10:25:09.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jH28S-QxpJqKqkSl-iZT" version="21.3.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1318" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1569" dy="979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -814,8 +814,8 @@
         <mxCell id="RUMtgb1oClHB0mOU0g6q-125" value="特别说明：&lt;br&gt;在 corertc RtcEngineImp 中，会进一步驱动到 AudioLib::MuteRecvStream" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#CC0000;" parent="1" vertex="1">
           <mxGeometry x="40" y="1000" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OGtMSj8JQDjJPjgJNsV6-1" value="applyRemoteRoute&lt;br&gt;向服务器请求拉取指定 stream" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="920" width="180" height="40" as="geometry" />
+        <mxCell id="OGtMSj8JQDjJPjgJNsV6-1" value="applyRemoteRoute / updateRemoteRoute&lt;br&gt;向服务器请求拉取指定 stream" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="920" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
